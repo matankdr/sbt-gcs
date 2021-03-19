@@ -1,0 +1,17 @@
+name: Scala Steward
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  scala-steward:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: scala-steward-org/scala-steward-action@v2
+      with:
+        github-token: ${{ secrets.token }}
+        author-email: bla@gmail.com
+        author-name: bot
