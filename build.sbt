@@ -16,7 +16,7 @@ lazy val root = (project in file(".")).
     libraryDependencies ++= Seq(
       "com.google.cloud" % "google-cloud-storage" % googleCloudVersion,
       "com.typesafe.akka" %% "akka-actor" % "2.6.1",
-      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.38.8" % Test,
+      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.38.9" % Test,
       "io.monix" %% "monix-reactive" % monixVersion,
       "org.scalatest" %% "scalatest" % scalaTestVersion % Test
     )
