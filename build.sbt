@@ -1,7 +1,7 @@
 
 val googleCloudVersion = "1.113.4"
 val monixVersion = "2.3.3"
-val scalaTestVersion = "3.0.4"
+val scalaTestVersion = "3.0.9"
 
 lazy val root = (project in file(".")).
   enablePlugins(GitVersioning).
