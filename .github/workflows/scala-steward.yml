@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: scala-steward-org/scala-steward-action@v2
       with:
-        github-token: ${{ secrets.token }}
+        github-token: ${{ secrets.TOKEN }}
         author-email: bla@gmail.com
         author-name: bot
