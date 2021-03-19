@@ -15,7 +15,7 @@ lazy val root = (project in file(".")).
     sbtVersion := "1.1.0",
     libraryDependencies ++= Seq(
       "com.google.cloud" % "google-cloud-storage" % googleCloudVersion,
-      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.38.7" % Test,
+      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.38.9" % Test,
       "io.monix" %% "monix-reactive" % monixVersion,
       "org.scalatest" %% "scalatest" % scalaTestVersion % Test
     )
