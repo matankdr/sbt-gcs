@@ -1,16 +1,16 @@
 name: Auto Merge after Steward
 on:
   workflow_run:
-    workflows:
-      - Scala Steward
-    types:
-      - completed
+#     workflows:
+#       - Scala Steward
+#     types:
+#       - completed
       
   pull_request_target:
     types:
       - labeled
-      - unlabeled
-      - ready_for_review
+#       - unlabeled
+#       - ready_for_review
       
 jobs:
   automerge:
@@ -20,6 +20,6 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           merge-method: rebase
-#           required-labels: scala-steward
+          required-labels: scala-steward
           pull-request: ${{ github.event.inputs.pull-request }}
           dry-run: false
