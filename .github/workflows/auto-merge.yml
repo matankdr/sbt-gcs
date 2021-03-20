@@ -1,11 +1,11 @@
 name: Auto Merge after Steward
 on:
   push:
-#   workflow_run:
-#     workflows:
-#       - Scala Steward
-#     types:
-#       - completed
+  workflow_run:
+    workflows:
+      - Scala Steward
+    types:
+      - completed
       
   pull_request_target:
     types:
