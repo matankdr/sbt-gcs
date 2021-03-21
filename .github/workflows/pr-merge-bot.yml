@@ -27,8 +27,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
         test: true
         reviewers: false
-        labels: scala-steward
-        blocking_labels: do not merge
+        labels: 'scala-steward'
+        blocking_labels: do-not-merge
         checks_enabled: true
         method: squash
         delete_source_branch: true
