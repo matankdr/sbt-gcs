@@ -1,5 +1,5 @@
 
-val googleCloudVersion = "1.113.4"
+val googleCloudVersion = "1.113.15"
 val monixVersion = "2.3.3"
 val scalaTestVersion = "3.0.4"
 
