@@ -27,7 +27,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
         test: true
         reviewers: false
-        labels: ready, merge
+        labels: ready, merge, scala-steward
         blocking_labels: do-not-merge
         checks_enabled: true
         method: squash
