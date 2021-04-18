@@ -26,6 +26,6 @@ enable:
 #    - 'include' patterns will associate a label if any of these patterns match
 #    - 'exclude' patterns will ignore this label if any of these patterns match
 labels:
-  'scala-steward':
+  'ready':
     include:
       - '\bConfigure Scala Steward for your repository\b'
