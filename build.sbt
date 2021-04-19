@@ -1,6 +1,6 @@
 
 val googleCloudVersion = "1.113.15"
-val monixVersion = "2.3.3"
+val monixVersion = "3.3.0"
 val scalaTestVersion = "3.0.4"
 
 lazy val root = (project in file(".")).
