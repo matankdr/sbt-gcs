@@ -1,5 +1,5 @@
 
-val googleCloudVersion = "1.113.4"
+val googleCloudVersion = "1.113.15"
 val monixVersion = "2.3.3"
 val scalaTestVersion = "3.0.4"
 
@@ -17,8 +17,8 @@ lazy val root = (project in file(".")).
       "com.google.cloud" % "google-cloud-storage" % googleCloudVersion,
       "com.typesafe.akka" %% "akka-actor" % "2.6.1",
       "com.typesafe.akka" %% "akka-stream" % "2.6.1",
-      "com.typesafe.akka" %% "akka-http" % "10.1.14",
-      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.38.8" % Test,
+      "com.typesafe.akka" %% "akka-http" % "10.1.1",
+      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.38.9" % Test,
       "io.monix" %% "monix-reactive" % monixVersion,
       "org.scalatest" %% "scalatest" % scalaTestVersion % Test
     )
