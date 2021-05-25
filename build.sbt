@@ -18,7 +18,7 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-actor" % "2.6.1",
       "com.typesafe.akka" %% "akka-stream" % "2.6.1",
       "com.typesafe.akka" %% "akka-http" % "10.1.1",
-      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.39.4" % Test,
+      "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.39.5" % Test,
       "io.monix" %% "monix-reactive" % monixVersion,
       "org.scalatest" %% "scalatest" % scalaTestVersion % Test
     )
