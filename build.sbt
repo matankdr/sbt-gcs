@@ -15,8 +15,8 @@ lazy val root = (project in file(".")).
     sbtVersion := "1.1.0",
     libraryDependencies ++= Seq(
       "com.google.cloud" % "google-cloud-storage" % googleCloudVersion,
-      "com.typesafe.akka" %% "akka-actor" % "2.6.1",
-      "com.typesafe.akka" %% "akka-stream" % "2.6.1",
+      "com.typesafe.akka" %% "akka-actor" % "2.6.15",
+      "com.typesafe.akka" %% "akka-stream" % "2.6.15",
       "com.typesafe.akka" %% "akka-http" % "10.1.1",
       "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.39.5" % Test,
       "io.monix" %% "monix-reactive" % monixVersion,
