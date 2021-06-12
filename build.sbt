@@ -17,7 +17,7 @@ lazy val root = (project in file(".")).
       "com.google.cloud" % "google-cloud-storage" % googleCloudVersion,
       "com.typesafe.akka" %% "akka-actor" % "2.6.15",
       "com.typesafe.akka" %% "akka-stream" % "2.6.15",
-      "com.typesafe.akka" %% "akka-http" % "10.1.1",
+      "com.typesafe.akka" %% "akka-http" % "10.1.14",
       "com.dimafeng" %% "testcontainers-scala-scalatest" % "0.39.5" % Test,
       "io.monix" %% "monix-reactive" % monixVersion,
       "org.scalatest" %% "scalatest" % scalaTestVersion % Test
